@@ -1,0 +1,1047 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  outline: none;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #f7f7f7;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+/* main-padding */
+.main-padding {
+  padding-top: 160px;
+  padding-bottom: 0px;
+}
+
+.hero-section {
+  background-image: url(../assets/images/hero/Nav-hero-bg.webp);
+}
+.hero-left-content .sub-heading {
+  font-size: 16px;
+  color: #17c2ec;
+}
+.hero-left-content .heading {
+  font-size: 32px;
+  color: #ffffff;
+  font-weight: 800;
+  width: 75%;
+  margin: 40px 0px;
+}
+.hero-left-content .heading span {
+  color: #17c2ec;
+}
+.hero-left-content .content {
+  font-size: 18px;
+  color: #b6b8c6;
+  font-weight: bold;
+  width: 84%;
+  margin-bottom: 40px;
+}
+.hero-left-content .left-button .bt1 {
+  border: 1px solid transparent;
+  background-color: #17c2ec;
+  color: #ffffff;
+  padding: 12px 22px;
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+}
+.hero-left-content .left-button .bt1:hover {
+  background-color: #ffffff;
+  color: #17c2ec;
+  border: 1px solid #17c2ec;
+}
+.hero-left-content .left-button .bt2 {
+  border: 1px solid #17c2ec;
+  background-color: #1f234c;
+  color: #ffffff;
+  padding: 12px 22px;
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.hero-left-content .left-button .bt2:hover {
+  background-color: #ffffff;
+  color: #1f234c;
+  border: 1px solid #17c2ec;
+}
+.hero-right-image {
+  position: relative;
+}
+.hero-right-1-img {
+  position: absolute;
+  top: 174px;
+  left: -50px;
+}
+.hero-right-2-img {
+  position: absolute;
+  top: 174px;
+  right: -36px;
+}
+.hero-right-3-img {
+  position: absolute;
+  bottom: -50px;
+  left: -50px;
+}
+.hero-clock-content {
+  margin-top: 15px;
+}
+.hero-clock-content span {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.hero-bottom {
+  display: flex;
+  background-color: #242b4d;
+  padding: 40px 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.hero-bottom .hero-location {
+  display: flex;
+  gap: 10px;
+}
+.hero-bottom .hero-location .hero-loc .loc-top {
+  font-size: 16px;
+  font-weight: bold;
+  color: #b6b8c6;
+}
+.hero-bottom .hero-location .hero-loc .loc-bottom {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+}
+.hero-bottom .hero-bottom-button button {
+  border: 1px solid transparent;
+  background-color: #17c2ec;
+  color: #ffffff;
+  padding: 12px 22px;
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+}
+.hero-bottom .hero-bottom-button button:hover {
+  background-color: #ffffff;
+  color: #17c2ec;
+  border: 1px solid #17c2ec;
+}
+.hero-bottom-resposive {
+  display: none;
+}
+.hero-not-res {
+  display: block;
+}
+/* Vaccination */
+.vaccinations-dosses {
+  display: flex;
+  gap: 50px;
+  padding: 20px 0px;
+}
+.vaccinations-dosses img {
+  width: 150px;
+}
+
+/* DataBase */
+.database-section {
+  background-image: url(../assets/images/database/Database-bg.webp);
+  padding: 50px 0px;
+}
+.database-section .database-main {
+  background-color: #1d2350;
+  padding: 0px 0px 25px 0px;
+  border-radius: 12px;
+}
+.database-section .database-main .heading {
+  background-color: #252b56;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px 57px;
+}
+.database-section .database-main .database-input {
+  display: flex;
+  padding: 10px 57px;
+  gap: 20px;
+  margin: 25px 0px;
+}
+.database-section .database-main .database-input input {
+  padding: 10px;
+  border: 1px solid #363b61;
+  width: 42%;
+  border-radius: 12px;
+  background-color: #1d2350;
+  color: #ffffff;
+}
+.database-section .database-main .database-input .in-1 {
+  border: 2px solid #17c2ec;
+}
+.database-section .database-main .database-input .in-1::placeholder {
+  color: #ffffff;
+}
+.database-section .database-button button {
+  border: 1px solid #17c2ec;
+  background-color: #1f234c;
+  color: #17c2ec;
+  padding: 12px 33px;
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+}
+.database-section .database-button button:hover {
+  background-color: #ffffff;
+  color: #1f234c;
+  border: 1px solid #17c2ec;
+}
+.database-section .content {
+  padding: 14px 0px;
+  background-color: #252b56;
+  margin: auto;
+  border-radius: 12px;
+  font-size: 18px;
+  width: 90%;
+  color: #17c2ec;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Today */
+.today-section {
+  background-image: url(../assets/images/today/today-bg.webp);
+  padding: 30px 0px;
+}
+.today-top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.today-top-content .heading {
+  font-size: 32px;
+  width: 32%;
+  color: #ffffff;
+  font-weight: bold;
+}
+.today-top-content .content {
+  color: #ffffff;
+  font-weight: 100;
+  width: 39%;
+  font-size: 16px;
+}
+.today-card {
+  background-color: #48466ba3;
+  padding: 40px 28px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 130px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-top: 30px;
+}
+.today-card .sub-heading {
+  font-size: 20px;
+  color: #17c2ec;
+  font-weight: bold;
+  margin: 15px 0px;
+}
+.today-card .content {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 15px 0px;
+}
+.today-card a {
+  color: #17c2ec;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.today-card .arr {
+  width: 22px;
+}
+.today-card-2 .arr {
+  width: 22px;
+  color: #ffffff;
+}
+.today-card-2 .color-ch {
+  font-weight: 500;
+  color: #c4c4c4;
+}
+/* Today-card-2 */
+.today-card-2 {
+  border: 3px solid #363b61;
+  padding: 29px 35px;
+  border-radius: 35px;
+  margin-top: 127px;
+}
+.today-card-2 .sub-heading {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 30px 0px;
+}
+.today-card-2 a {
+  color: #17c2ec;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.today-card-2 .sub-heading .s-h {
+  margin-bottom: 30px;
+}
+
+/* Registration */
+
+.reg-resposn {
+  display: none;
+}
+.reg-opp {
+  display: none;
+}
+.registration-section {
+  background-image: url(../assets/images/registration/registration-bg.webp);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.registration-section .registration-content .heading {
+  font-size: 32px;
+  width: 57%;
+  color: #000000;
+  font-weight: bolder;
+}
+.registration-section .registration-content .sub-heading-1 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 22px 0px 7px 0px;
+}
+.registration-content input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+  background-color: #d8dae0;
+  border-radius: 15px;
+}
+.registration-section .registration-content .sub-heading-2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 22px 0px 7px 0px;
+}
+.registration-section .registration-content .content {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 7px;
+}
+.registration-section .registration-content .in-button input {
+  width: 63%;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+  background-color: #d8dae0;
+  border-radius: 12px;
+}
+.registration-section .registration-content .in-button button {
+  border: 1px solid transparent;
+  background-color: #17c2ec;
+  color: #ffffff;
+  padding: 12px 60px;
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+  margin-left: 30px;
+}
+.registration-section .registration-content .in-button button:hover {
+  background-color: #ffffff;
+  color: #17c2ec;
+  border: 1px solid #17c2ec;
+}
+.registration-section .registration-content .registration-button {
+  border: 1px solid transparent;
+  background-color: #17c2ec;
+  color: #ffffff;
+  width: 100%;
+  padding: 10px 60px;
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.registration-section .registration-content .registration-button:hover {
+  background-color: #ffffff;
+  color: #17c2ec;
+  border: 1px solid #17c2ec;
+}
+.registration-section .registration-content .end-links {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 14px;
+}
+.registration-section .registration-content .end-links .reg-al {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+}
+.registration-section .registration-content .end-links .reg-al:hover {
+  cursor: pointer;
+}
+.registration-section .registration-content .end-links .status {
+  font-weight: 500;
+  color: #17c2ec;
+}
+.registration-section .registration-content .end-links .status:hover {
+  cursor: pointer;
+}
+.reg-right {
+  position: relative;
+  text-align: end;
+}
+.reg-status {
+  position: absolute;
+  bottom: 11%;
+  right: 95px;
+}
+
+/* Symptoms */
+.symptoms-section {
+  background-image: url(../assets/images/symptoms/symptoms-bg.webp);
+  padding-top: 50px;
+}
+.symptoms-section .symptoms-content {
+  text-align: center;
+}
+.symptoms-section .symptoms-content .sub-heading {
+  font-size: 16px;
+  color: #ffffff;
+}
+.symptoms-section .symptoms-content .heading {
+  font-size: 32px;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 30px 0px;
+}
+.symptoms-section .symptoms-content .heading span {
+  color: #17c2ec;
+}
+.symptoms-section .symptoms-content .content {
+  font-size: 18px;
+  margin: auto;
+  color: #ffffff;
+  text-align: center;
+  width: 64%;
+  font-weight: 200;
+}
+.symptoms-section .symptoms-bottom-img {
+  margin-top: 50px;
+}
+
+/* Feedback */
+.feedback-section {
+  background-image: url(../assets/images/feedback/feed-back-bg-1.webp);
+  padding-top: 50px;
+  padding-bottom: 167px;
+  margin-bottom: -142px;
+}
+.feedback-section .feedback-content {
+  text-align: center;
+}
+.feedback-section .feedback-content .sub-heading {
+  font-size: 16px;
+  color: #17c2ec;
+  font-weight: bold;
+}
+.feedback-section .feedback-content .heading {
+  font-size: 32px;
+  color: #000000;
+  font-weight: 900;
+  margin: 30px 0px;
+}
+.feedback-section .feedback-content .content {
+  font-size: 18px;
+  margin: auto;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 64%;
+  font-weight: 500;
+}
+.feedback-section .feed-group-image {
+  margin-top: 30px;
+  position: relative;
+}
+.feedback-section .feed-swipper {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+}
+.feedback-section .feedback-card {
+  padding: 30px 20px;
+  background-color: rgba(196, 196, 196, 0.5);
+  border-radius: 20px;
+}
+.feedback-section .feedback-card .feed-card-1-img-text {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.feedback-section .feedback-card .feed-text .name {
+  font-size: 18px;
+  font-weight: 800;
+}
+.feedback-section .feedback-card .feed-text .place {
+  font-size: 14px;
+  font-weight: 500;
+}
+.feedback-section .feedback-card .content {
+  text-align: center;
+  margin-top: 30px;
+}
+.feedback-section .feedback-card .content span {
+  color: #17c2ec;
+}
+.feedback-section .second {
+  background-color: #17c2ec;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 991px) {
+  .hero-left-content .heading {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 800;
+    width: 48%;
+    margin: 30px 0px;
+  }
+  .hero-left-content .content {
+    font-size: 16px;
+    color: #b6b8c6;
+    font-weight: bold;
+    width: 59%;
+    margin-bottom: 30px;
+  }
+  .hero-left-content .left-button {
+    margin-bottom: 30px;
+  }
+  .hero-right-image {
+    text-align: center;
+    position: relative;
+  }
+  .hero-right-1-img {
+    position: absolute;
+    top: 233px;
+    left: 23px;
+  }
+  .hero-right-2-img {
+    position: absolute;
+    top: 233px;
+    right: 33px;
+  }
+  .hero-right-3-img {
+    position: absolute;
+    bottom: -50px;
+    left: 25px;
+  }
+  .hero-clock-content {
+    margin-top: 75px;
+  }
+  .hero-clock-content span {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+    margin-left: 15px;
+  }
+  .hero-not-res {
+    display: none;
+  }
+  .hero-bottom-resposive {
+    display: block;
+  }
+  .hero-bottom-resposive .space {
+    margin-top: 50px;
+  }
+  .hero-bottom .hero-bottom-button button {
+    border: 1px solid transparent;
+    background-color: #17c2ec;
+    color: #ffffff;
+    padding: 12px 73px;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+  }
+  .hero-bottom .hero-location .hero-loc .loc-bottom {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .database-section .database-main .database-input {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 57px;
+    gap: 20px;
+    align-items: center;
+    margin: 25px 0px;
+  }
+  .database-section .database-main .heading {
+    background-color: #252b56;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px 57px;
+  }
+  .database-section .database-main .database-input input {
+    padding: 10px;
+    border: 1px solid #363b61;
+    width: 70%;
+    border-radius: 12px;
+    background-color: #1d2350;
+    color: #ffffff;
+  }
+  .database-button {
+    margin: auto;
+    width: 70%;
+    text-align: start;
+  }
+  .database-section .content {
+    padding: 14px 0px;
+    background-color: #252b56;
+    margin: auto;
+    border-radius: 12px;
+    font-size: 14px;
+    width: 90%;
+    color: #17c2ec;
+    text-align: center;
+    font-weight: bold;
+  }
+  .today-top-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .today-top-content .heading {
+    font-size: 25px;
+    width: 40%;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .today-top-content .content {
+    color: #ffffff;
+    font-weight: 100;
+    width: 60%;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  .today-card .sub-heading {
+    font-size: 20px;
+    color: #17c2ec;
+    font-weight: bold;
+    width: 71%;
+    margin: 15px 0px;
+  }
+  .today-card .content {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 200;
+    width: 91%;
+    margin: 15px 0px;
+  }
+  .today-card-2 {
+    width: 91%;
+    border: 3px solid #363b61;
+    padding: 15px 38px;
+    border-radius: 35px;
+    margin-top: 30px;
+  }
+  .today-card-2 .sub-heading {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 30px 0px;
+  }
+  .reg-not-responsive {
+    display: none;
+  }
+  .reg-resposn {
+    display: block;
+  }
+  .reg-resposn .reg-opp {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .reg-right {
+    position: relative;
+    text-align: start;
+  }
+  .reg-status {
+    position: absolute;
+    bottom: 11%;
+    left: 102px;
+  }
+  .registrat-res-heading {
+    font-size: 32px;
+    width: 80%;
+    color: #000000;
+    font-weight: bolder;
+  }
+  .registration-content {
+    margin: 30px 0px;
+  }
+  .registration-content input {
+    width: 100%;
+    padding: 15px 15px;
+    border: 1px solid transparent;
+    background-color: #d8dae0;
+    border-radius: 15px;
+  }
+  .registration-section .registration-content .in-button input {
+    width: 67%;
+    padding: 15px 15px;
+    border: 1px solid transparent;
+    background-color: #d8dae0;
+    border-radius: 12px;
+  }
+  .registration-section .registration-content .content {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 7px;
+  }
+  .registration-section .registration-content .in-button button {
+    border: 1px solid transparent;
+    background-color: #17c2ec;
+    color: #ffffff;
+    padding: 15px 73px;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+    margin-left: 30px;
+  }
+  .registration-section .registration-content .end-links {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    font-size: 16px;
+  }
+  .registration-section .registration-content .registration-button {
+    border: 1px solid transparent;
+    background-color: #17c2ec;
+    color: #ffffff;
+    width: 100%;
+    padding: 15px 60px;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+  .symptoms-section .symptoms-content .heading {
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 7px 0px 20px 0px;
+  }
+  .symptoms-section .symptoms-content .content {
+    font-size: 18px;
+    margin: auto;
+    color: #ffffff;
+    text-align: center;
+    width: 58%;
+    font-weight: 200;
+  }
+  .feedback-section {
+    background-image: url(http://localhost:3000/static/media/feed-back-bg-1.b5a07b8….webp);
+    padding-top: 50px;
+    padding-bottom: 167px;
+    margin-bottom: -80px;
+  }
+}
+
+@media only screen and (max-width: 776px) {
+  .hero-left-content .sub-heading {
+    font-size: 12px;
+    color: #17c2ec;
+  }
+  .hero-left-content .heading {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 800;
+    width: 94%;
+    margin: 30px 0px;
+  }
+  .hero-left-content .content {
+    font-size: 14px;
+    color: #b6b8c6;
+    font-weight: bold;
+    width: 87%;
+    margin-bottom: 30px;
+  }
+  .hero-left-content .left-button {
+    margin: 35px 0px;
+  }
+  .hero-right-image img {
+    width: 78%;
+  }
+  .hero-right-1-img {
+    position: absolute;
+    top: 81px;
+    left: -15px;
+  }
+  .hero-right-1-img img {
+    width: 50%;
+  }
+  .hero-right-2-img {
+    position: absolute;
+    top: 81px;
+    right: -15px;
+  }
+  .hero-right-2-img img {
+    width: 50%;
+  }
+  .hero-right-3-img {
+    position: absolute;
+    bottom: -39px;
+    left: -20px;
+  }
+  .hero-bottom-resposive .space {
+    margin-top: 30px;
+  }
+  .hero-bottom .hero-location .hero-loc .loc-bottom {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .hero-clock-content span {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: 15px;
+  }
+  .vaccinations-dosses img {
+    width: 100px;
+  }
+  .vaccinations-dosses {
+    display: flex;
+    gap: 50px;
+    padding: 5px 0px;
+  }
+  /* DataBase */
+  /* Left */
+
+  .today-top-content .heading {
+    font-size: 20px;
+    width: 80%;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .today-top-content .content {
+    color: #ffffff;
+    font-weight: 200;
+    width: 89%;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .today-card-2 .sub-heading {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 30px 0px;
+  }
+  .registration-section {
+    background-image: url(../assets/images/registration/registration-bg.webp);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: block;
+  }
+  .reg-not-responsive {
+    display: none;
+  }
+  .reg-resposn {
+    display: block;
+  }
+  .reg-resposn .reg-opp {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .symptoms-section .symptoms-content .sub-heading {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .symptoms-section .symptoms-content .heading {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 7px 0px 20px 0px;
+  }
+  .symptoms-section .symptoms-content .content {
+    font-size: 14px;
+    margin: auto;
+    color: #ffffff;
+    text-align: center;
+    width: 88%;
+    font-weight: 200;
+  }
+  .feedback-section .feedback-content .sub-heading {
+    font-size: 14px;
+    color: #17c2ec;
+    font-weight: bold;
+  }
+  .feedback-section .feedback-content .heading {
+    font-size: 22px;
+    color: #000000;
+    font-weight: 900;
+    margin: 15px 0px;
+  }
+  .feedback-section .feedback-content .content {
+    font-size: 14px;
+    margin: auto;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 100%;
+    font-weight: 500;
+  }
+  .footer-section .footer-content .foot-links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .database-section .database-main .heading {
+    background-color: #252b56;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    padding: 15px 10px;
+  }
+  .database-section .database-main .database-input {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    gap: 20px;
+    align-items: center;
+    margin: 25px 0px;
+  }
+  .database-section .database-main .database-input input {
+    padding: 10px;
+    border: 1px solid #363b61;
+    width: 90%;
+    border-radius: 12px;
+    background-color: #1d2350;
+    color: #ffffff;
+    font-size: 14px;
+  }
+  .database-section .content {
+    padding: 14px 0px;
+    background-color: #252b56;
+    margin: auto;
+    border-radius: 12px;
+    font-size: 12px;
+    width: 90%;
+    color: #17c2ec;
+    text-align: center;
+    font-weight: bold;
+  }
+  .feedback-section {
+    background-image: url(http://localhost:3000/static/media/feed-back-bg-1.b5a07b8….webp);
+    padding-top: 50px;
+    padding-bottom: 167px;
+    margin-bottom: 48px;
+  }
+  .database-button {
+    margin: auto;
+    width: 89%;
+    text-align: start;
+  }
+  .registrat-res-heading {
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    font-weight: bolder;
+  }
+  .registration-section .registration-content .sub-heading-1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 50px 0px 7px 0px;
+  }
+  .registration-content input {
+    width: 100%;
+    padding: 12px 18px;
+    font-size: 14px;
+    border: 1px solid transparent;
+    background-color: #d8dae0;
+    border-radius: 15px;
+  }
+  .registration-section .registration-content .content {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 14px;
+  }
+  .registration-section .registration-content .in-button input {
+    width: 100%;
+    padding: 15px 15px;
+    border: 1px solid transparent;
+    background-color: #d8dae0;
+    border-radius: 12px;
+  }
+  .registration-section .registration-content .in-button button {
+    border: 1px solid transparent;
+    background-color: #17c2ec;
+    color: #ffffff;
+    padding: 15px 73px;
+    font-size: 14px;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+    margin-top: 18px;
+    margin-left: 0px;
+  }
+  .registration-section .registration-content .registration-button {
+    border: 1px solid transparent;
+    background-color: #17c2ec;
+    color: #ffffff;
+    width: 100%;
+    padding: 15px 60px;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  .registration-section .registration-content .end-links {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 39px;
+    font-size: 14px;
+  }
+}
