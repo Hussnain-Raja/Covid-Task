@@ -1,10 +1,7 @@
-import React, { useEffect, useState } from "react";
 import "../css/Home.css";
 // import Swiper core and required modules
 // import { Pagination } from "swiper/modules";
-
 import { Swiper, SwiperSlide } from "swiper/react";
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -34,47 +31,11 @@ import feedPerson1 from "../assets/images/feedback/feedback-person-1.webp";
 import feedPerson2 from "../assets/images/feedback/feed-back-person-2.webp";
 import feedPerson3 from "../assets/images/feedback/feedback-person-3.webp";
 
-type resultProps = {
-  email: string;
-  gender: string;
-};
-type newResultProps = {
-  email: string;
-  gender: string;
-};
-
-const Main = () => {
-  const [result, setResult] = useState<resultProps[]>([]);
-  const [newResult, setNewResult] = useState<newResultProps[]>([]);
-
-  useEffect(() => {
-    api();
-  }, []);
-
-  const api = async () => {
-    // const data = await fetch("https://randomuser.me/api", {
-    //   method: "Get",
-    // });
-    // const jsonData = await data.json();
-
-    // setNewResult(jsonData.results);
-    // setResult(jsonData.results);
-  };
-  // useEffect(() => {
-  //   const api = async () => {
-  //     const data = await fetch("https://randomuser.me/api", {
-  //       method: "Get",
-  //     });
-  //     const jsonData = await data.json();
-  //     setNewResult(jsonData.results);
-  //   };
-  //   api();
-  // }, []);
-
+const Home = () => {
   return (
     <>
       {/* Hero */}
-      <div className="hero-section main-padding" id="home-section">
+      <div className="hero-section" id="home-section">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -91,28 +52,8 @@ const Main = () => {
                   vaccination, in all 36 states in Nigeria.
                 </div>
                 <div className="left-button">
-                  <button className="bt1">
-                    Get Vaccine
-                    {result.map((value) => {
-                      return (
-                        <div>
-                          <div>{value.email}</div>
-                          <div>{value.gender}</div>
-                        </div>
-                      );
-                    })}
-                  </button>
-                  <button className="bt2">
-                    Help Centre
-                    {newResult.map((value) => {
-                      return (
-                        <div>
-                          <div>{value.email}</div>
-                          <div>{value.gender}</div>
-                        </div>
-                      );
-                    })}
-                  </button>
+                  <button className="bt1">Get Vaccine</button>
+                  <button className="bt2">Help Centre</button>
                 </div>
               </div>
             </div>
@@ -544,4 +485,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Home;

@@ -30,14 +30,10 @@ ul {
   margin: 0;
   padding: 0;
 }
-/* main-padding */
-.main-padding {
-  padding-top: 160px;
-  padding-bottom: 0px;
-}
 
 .hero-section {
   background-image: url(../assets/images/hero/Nav-hero-bg.webp);
+  padding-top: 180px;
 }
 .hero-left-content .sub-heading {
   font-size: 16px;
@@ -163,7 +159,7 @@ ul {
 /* Vaccination */
 .vaccinations-dosses {
   display: flex;
-  gap: 50px;
+  gap: 185px;
   padding: 20px 0px;
 }
 .vaccinations-dosses img {
@@ -358,6 +354,10 @@ ul {
   color: rgba(0, 0, 0, 0.5);
   margin-bottom: 7px;
 }
+.registration-section .registration-content .in-button {
+  display: flex;
+  justify-content: space-between;
+}
 .registration-section .registration-content .in-button input {
   width: 63%;
   padding: 10px 15px;
@@ -373,7 +373,6 @@ ul {
   border-radius: 12px;
   transition: all 0.3s ease-in-out;
   font-weight: 600;
-  margin-left: 30px;
 }
 .registration-section .registration-content .in-button button:hover {
   background-color: #ffffff;
@@ -458,6 +457,9 @@ ul {
   font-weight: 200;
 }
 .symptoms-section .symptoms-bottom-img {
+  margin: auto;
+  width: 100%;
+  text-align: center;
   margin-top: 50px;
 }
 
@@ -503,6 +505,7 @@ ul {
   padding: 30px 20px;
   background-color: rgba(196, 196, 196, 0.5);
   border-radius: 20px;
+  height: 230px;
 }
 .feedback-section .feedback-card .feed-card-1-img-text {
   display: flex;
@@ -672,7 +675,7 @@ ul {
     margin: 15px 0px;
   }
   .today-card-2 {
-    width: 91%;
+    /* width: 91%; */
     border: 3px solid #363b61;
     padding: 15px 38px;
     border-radius: 35px;
@@ -696,7 +699,7 @@ ul {
   }
   .reg-right {
     position: relative;
-    text-align: start;
+    text-align: center;
   }
   .reg-status {
     position: absolute;
@@ -784,6 +787,9 @@ ul {
 }
 
 @media only screen and (max-width: 776px) {
+  .hero-section {
+    padding-top: 100px;
+  }
   .hero-left-content .sub-heading {
     font-size: 12px;
     color: #17c2ec;
@@ -845,13 +851,17 @@ ul {
   }
   .vaccinations-dosses img {
     width: 100px;
+    margin-right: 50px;
   }
   .vaccinations-dosses {
     display: flex;
     gap: 50px;
-    padding: 5px 0px;
+    padding: 15px 0px;
   }
   /* DataBase */
+  .feedback-section .feedback-card .feed-card-1-img-text {
+    justify-content: center;
+  }
   /* Left */
 
   .today-top-content .heading {
@@ -1006,7 +1016,7 @@ ul {
     margin-bottom: 14px;
   }
   .registration-section .registration-content .in-button input {
-    width: 100%;
+    width: 60%;
     padding: 15px 15px;
     border: 1px solid transparent;
     background-color: #d8dae0;
@@ -1021,7 +1031,7 @@ ul {
     border-radius: 12px;
     transition: all 0.3s ease-in-out;
     font-weight: 600;
-    margin-top: 18px;
+
     margin-left: 0px;
   }
   .registration-section .registration-content .registration-button {
